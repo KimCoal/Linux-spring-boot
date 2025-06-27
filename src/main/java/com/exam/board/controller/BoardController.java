@@ -80,7 +80,7 @@ public class BoardController {
 		String fileName = null;
 		String filePath = null;
 		
-		// 윈도우
+		// 윈도우.
 		File uploadDir = new File(UPLOAD_DIR);
 		if(!uploadDir.exists()) {
 			uploadDir.mkdirs();
